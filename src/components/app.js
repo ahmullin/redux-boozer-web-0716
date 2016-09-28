@@ -7,6 +7,7 @@ export default (props) => {
       <div>
         < NavBar  title="Boozr" url="/" />
         <div className='container'>
+          <Link to='/cocktails'>See all Cocktails</Link>
           { props.children }
         </div>
 
